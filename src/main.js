@@ -10,7 +10,6 @@ import './assets/css/main.css'
 
 export const app = createApp(App)
 app.AOS = new AOS.init({
-    disable: 'mobile',
     anchorPlacement: 'top-left',
     duration: 600,
     easing: "ease-in-out",
