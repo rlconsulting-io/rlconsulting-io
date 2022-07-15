@@ -3,7 +3,9 @@
         <div class="container">
             <div class="my-3">
                 <div class="h4">Régis Tremblay Lefrançois</div>
-                <p>Architecte Systèmes</p>
+                <p>Systems Architect ·
+                    Docker ·
+                    Python · Azure</p>
                 <div class="social-nav">
                     <nav role="navigation">
                         <ul class="nav justify-content-center">
