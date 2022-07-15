@@ -9,6 +9,15 @@ import './assets/css/bootstrap.min.css'
 import './assets/css/main.css'
 
 export const app = createApp(App)
-app.AOS = new AOS.init({ disable: 'mobile' });
+app.AOS = new AOS.init({
+    disable: 'mobile',
+    anchorPlacement: 'top-left',
+    duration: 600,
+    easing: "ease-in-out",
+    once: true,
+    mirror: false,
+});
+
+
 
 app.use(AOS).mount('#app')
