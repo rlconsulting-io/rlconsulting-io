@@ -2,6 +2,7 @@
 import NavbarComponent from './components/NavbarComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import HiComponent from './components/HiComponent.vue';
+import AboutComponent from './components/AboutComponent.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import HiComponent from './components/HiComponent.vue';
   <div class="page-content">
     <div id="content">
       <HiComponent />
+      <AboutComponent />
     </div>
   </div>
   <FooterComponent />
