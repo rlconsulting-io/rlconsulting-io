@@ -3,6 +3,7 @@ import NavbarComponent from './components/NavbarComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import HiComponent from './components/HiComponent.vue';
 import AboutComponent from './components/AboutComponent.vue';
+import ServicesComponent from './components/ServicesComponent.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import AboutComponent from './components/AboutComponent.vue';
     <div id="content">
       <HiComponent />
       <AboutComponent />
+      <ServicesComponent />
     </div>
   </div>
   <FooterComponent />
