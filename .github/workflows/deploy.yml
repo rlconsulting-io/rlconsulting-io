@@ -25,6 +25,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Create CNAME file
+        run: echo 'rlconsulting.io' > CNAME
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
