@@ -5,6 +5,7 @@ import HiComponent from './components/HiComponent.vue';
 import AboutComponent from './components/AboutComponent.vue';
 import ServicesComponent from './components/ServicesComponent.vue';
 import SkillsComponent from './components/SkillsComponent.vue';
+import PortfolioComponent from './components/PortfolioComponent.vue';
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import SkillsComponent from './components/SkillsComponent.vue';
       <AboutComponent />
       <ServicesComponent />
       <SkillsComponent />
+      <PortfolioComponent />
     </div>
   </div>
   <FooterComponent />
