@@ -1,8 +1,9 @@
 <template>
     <header class="bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
-            <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">Régis Tremblay
-                    Lefrançois</a>
+            <div class="container">
+                <img class="logo-rl" src="@/assets/images/icononly_transparent_nobuffer.png" />
+                <a class="link-dark navbar-brand site-title mb-0" href="#">RL Consulting</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
@@ -24,3 +25,8 @@
 export default {
     name: 'NavbarComponent'
 }</script>
+<style scoped>
+.logo-rl {
+    width: 100px;
+}
+</style>
