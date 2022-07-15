@@ -40,7 +40,7 @@
                             <div class="pb-1">Email:</div>
                         </div>
                         <div class="col-sm-10">
-                            <div class="pb-1 fw-bolder">regg00@gmail.com</div>
+                            <div class="pb-1 fw-bolder">rtlefrancois@rlconsulting.io</div>
                         </div>
                         <div class="col-sm-2">
                             <div class="pb-1">Phone:</div>
@@ -49,10 +49,10 @@
                             <div class="pb-1 fw-bolder">+1-418-573-5218</div>
                         </div>
                         <div class="col-sm-2">
-                            <div class="pb-1">Address:</div>
+                            <div class="pb-1">Location:</div>
                         </div>
                         <div class="col-sm-10">
-                            <div class="pb-1 fw-bolder">Lévis, Québec</div>
+                            <div class="pb-1 fw-bolder">QC, Canada</div>
                         </div>
                         <div class="col-sm-2">
                             <div class="pb-1">Staus:</div>
