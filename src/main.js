@@ -9,6 +9,6 @@ import './assets/css/bootstrap.min.css'
 import './assets/css/main.css'
 
 export const app = createApp(App)
-app.AOS = new AOS.init({ disable: "phone" });
+app.AOS = new AOS.init({ disable: 'mobile' });
 
 app.use(AOS).mount('#app')
