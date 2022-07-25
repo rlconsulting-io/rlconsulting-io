@@ -3,50 +3,27 @@
         <div class="container-narrow">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="h4 my-2">Hi! My name is Régis.</h2>
-                    <p>When Bill Gates said, "I will always choose a lazy person to do a difficult job because a lazy
-                        person
-                        will find an easy way to do it.", he was talking about me. I WILL find the ultimate easiest way
-                        to do
-                        pretty much anything. It's kind of my superpower.</p>
-                    <p>I got my first taste of IT when I built my first PC at 12 solely to play Counter-Strike 1.3 a
-                        mild 7
-                        hours a day. The next project was to annoy my mother enough so that she finally upgraded our
-                        internet
-                        connection to lower my ping and download faster on Napster. I was a good project manager back
-                        then, and
-                        it's still the case today.</p>
-                    <p>If you are wondering why I do not have a ton of certifications attached to my profile, it's
-                        because I'm
-                        a self-learner, and, to me, the certification industry looks more like a scam than anything
-                        else. I
-                        don't need the 7 days of training taught by someone with no reel world experience in a
-                        windowless room
-                        surrounded by guys/girls 2 times my age that keep asking dumb questions. Just give me a good
-                        internet
-                        connection and some time, and I can teach myself anything you need.</p>
-
-
-
-
+                    <h2 class="h4 my-2">Hi! My name is {{ data.firstName }}.</h2>
+                    <p>{{ data.bio1 }}</p>
+                    <p>{{ data.bio2 }}</p>
+                    <p>{{ data.bio3 }}</p>
                     <div class="row mt-3">
-                        <div class="col-sm-2">
-                            <div class="pb-1">Age:</div>
-                        </div>
-                        <div class="col-sm-10">
-                            <div class="pb-1 fw-bolder">{{ calculateAge }}</div>
-                        </div>
+
                         <div class="col-sm-2">
                             <div class="pb-1">Email:</div>
                         </div>
                         <div class="col-sm-10">
-                            <div class="pb-1 fw-bolder">rtlefrancois@rlconsulting.io</div>
+                            <div class="pb-1 fw-bolder"><a class="textDecorationNone" :href="`mailto:${data.email}`">{{
+                                    data.email
+                            }}</a></div>
                         </div>
                         <div class="col-sm-2">
                             <div class="pb-1">Phone:</div>
                         </div>
                         <div class="col-sm-10">
-                            <div class="pb-1 fw-bolder">+1-418-573-5218</div>
+                            <div class="pb-1 fw-bolder"><a class="textDecorationNone" :href="`tel:${data.phone}`">{{
+                                    data.phone
+                            }}</a></div>
                         </div>
                         <div class="col-sm-2">
                             <div class="pb-1">Location:</div>
@@ -73,15 +50,12 @@
 <script>
 export default {
     name: 'AboutComponent',
-    computed: {
-        calculateAge: function () {
-            let currentDate = new Date();
-            let birthDate = new Date("1989/01/01");
-            let difference = currentDate - birthDate;
-            let age = Math.floor(difference / 31557600000);
-            return age
-        }
-    }
+    props: ['data']
 
 }
 </script>
+<style scoped>
+.textDecorationNone {
+    text-decoration: none;
+}
+</style>

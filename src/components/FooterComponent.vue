@@ -3,9 +3,7 @@
         <div class="container">
             <div class="my-3">
                 <div class="h4">Régis Tremblay Lefrançois</div>
-                <p>Systems Architect ·
-                    Docker ·
-                    Python · Azure</p>
+                <p>{{ data.title }}</p>
                 <div class="social-nav">
                     <nav role="navigation">
                         <ul class="nav justify-content-center">
@@ -36,6 +34,7 @@
 </template>
 <script>
 export default {
-    name: 'FooterComponent'
+    name: 'FooterComponent',
+    props: ['data']
 }
 </script>
