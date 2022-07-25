@@ -9,11 +9,10 @@
                     <div class="col-lg-6">
                         <div class="mt-5">
                             <p class="lead text-uppercase mb-1">Hi!</p>
-                            <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">My name is Régis
+                            <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">My name is
+                                {{ data.firstName }}
                             </h1><br />
-                            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Systems Architect ·
-                                Docker ·
-                                Python · Azure</p>
+                            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">{{ data.title }}</p>
                             <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
                                 <nav role="navigation">
                                     <ul class="nav justify-content-left">
@@ -43,6 +42,7 @@
 </template>
 <script>
 export default {
-    name: 'HiComponent'
+    name: 'HiComponent',
+    props: ['data']
 }
 </script>

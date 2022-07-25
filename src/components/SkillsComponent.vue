@@ -5,8 +5,7 @@
                 <h2 class="marker marker-center">My Skills</h2>
             </div>
             <div class="text-center">
-                <p class="mx-auto mb-3" style="max-width:600px">I am a fast learner and I specialize in a
-                    multitude of skills required in application development, architecture or project management.</p>
+                <p class="mx-auto mb-3" style="max-width:600px">{{ data.skillsIntro }}</p>
             </div>
             <div class="bg-light p-3">
                 <div class="row">
@@ -93,6 +92,7 @@
 </template>
 <script>
 export default {
-    name: 'SkillsComponent'
+    name: 'SkillsComponent',
+    props: ['data']
 }
 </script>
