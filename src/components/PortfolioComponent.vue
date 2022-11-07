@@ -5,13 +5,12 @@
                 <h2 class="marker marker-center">Portfolio </h2>
             </div>
             <div class="grid bp-gallery pb-3" data-aos="zoom-in-up" data-aos-delay="100">
-                <div class="grid-sizer"></div>
                 <div class="grid-item"><a href="https://www.proofpoint.com/us/customer-stories/Agri-Marche">
                         <figure class="portfolio-item"><img src="@/assets/images/portfolio/pp-small.png"
                                 data-bp="@/images/portfolio/pp.png" />
                             <figcaption>
                                 <h4 class="h5 mb-0">Email Security</h4>
-                                <div>Dribbble.com</div>
+                                <div>Proofpoint</div>
                             </figcaption>
                         </figure>
                     </a></div>
