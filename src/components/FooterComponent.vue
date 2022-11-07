@@ -22,13 +22,6 @@
                     </nav>
                 </div>
             </div>
-            <div class="text-small text-secondary">
-                <div class="mb-1">&copy; Super Folio. All rights reserved.</div>
-                <div>
-                    <!-- Make sure to buy a license for the template before removing the line below. Buy license on https://templateflip.com/ -->Design
-                    - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a>
-                </div>
-            </div>
         </div>
     </footer>
 </template>
