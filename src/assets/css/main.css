@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #E63946
+  --accent-color: #7E0DE7
 }
 
 html,
@@ -184,7 +184,7 @@ img.avatar {
 
 /* Portolio Caption */
 #bp_container .bp-xc {
-  background: #E63946 !important;
+  background: #7E0DE7 !important;
 }
 
 #bp_caption a {

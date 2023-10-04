@@ -2,8 +2,7 @@
     <header class="bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
             <div class="container">
-                <img class="logo-rl" src="@/assets/images/icononly_transparent_nobuffer.png" />
-                <a class="link-dark navbar-brand site-title mb-0" href="#">RL Consulting</a>
+                <img class="logo-rl" src="@/assets/images/RlConsulting-stacked.png" />
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
@@ -27,6 +26,9 @@ export default {
 }</script>
 <style scoped>
 .logo-rl {
-    width: 100px;
+    width: 250px;
+
+    margin-left: 50px;
+
 }
 </style>
